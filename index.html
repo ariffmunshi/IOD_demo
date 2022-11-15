@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Hello World</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="demo" style="color: blue;">Hello World!!!</h1>
+        <p>This is my paragraph</p>
+        <button onclick="changeRed()">Click Me</button>
+        <article>
+            <img src="https://placekitten.com/g/100/100" alt="kitten" >
+            <section>
+                <form>
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                </form>
+            </section>
+        </article>
+        <script>
+            // Defining a function
+            function changeRed() {
+                document.getElementById("demo").style.color = "red";
+            };
+            // changeRed(); // Execute / run / call function
+        </script>
+    </body>
+</html>
